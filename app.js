@@ -20,7 +20,7 @@ function timer()
         getSec.innerHTML=sec;
         milisec = 0;
     }
-    else  if(sec >= 10)
+    else  if(sec >= 60)
     {
         min++;
         getMin.innerHTML=min;
